@@ -4,9 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/javascript.js"></script>
+    <script src="js/js.js"></script>
     <title>Uebung 23.02.2021</title>
   </head>
-  <body>
+  <body onload="datumLetzteSeitenAenderung()">
+<p>Aufgabe1: Schreiben Sie ein Script, daß das Datum der letzten Änderung einer HTML Seite auf einer HTML Seite anzeigt.
+Die Ausgabeform soll : Diese Datei wurde zuletzt geändert am Montag, den 28.08.2000 , um 11:56:18.
+Verwenden Sie die Methode document.lastModified() auf das Date Objekt an und formatieren Sie die Ausgabe.  </p>
 
+</br>
+</br>
+</br>
+<p id="letzeAenderung"></p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<p>aufgabe2: Schreiben Sie ein Script, das die Fakultät einer positiven Zahl berechnet.
+Beispiel: Fakultät von 5 = 5*4*3*2*1 = 120
+Benutzen Sie eine rekursive Funktion, das heißt eine Funktion, die sich selbst immer
+wieder aufruft.</p>
+
+</br>
+</br>
+</br>
+<input id="input" type="text">
+<button type="submit" onclick="fakultätBerechnen()">Fakultät berechnen</button>
+<p id="ergebnis"> </p>
+
+</br>
+</br>
   </body>
 </html>
